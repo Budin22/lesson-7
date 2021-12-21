@@ -2,8 +2,34 @@
 <html lang="en">
 <head>
     <title>Document</title>
+    <style>
+        .label {
+            background-color: rgb(218, 163, 92);
+            display: inline-block;
+            vertical-align: top;
+            padding: 5px 10px;
+            border-radius: 20px;
+            color: white;
+            font-family: Arial;
+            text-transform: uppercase;
+        }
+        .label.only {
+            background-color: rgb(182, 31, 144);
+        }
+        .label.sale {
+            background-color: rgb(170, 170, 30);
+        }
+        .label.parcent {
+            background-color: red;
+        }
+    </style>
 </head>
 <body>
+    <span class="label">Топ продаж</span><!--
+ --><span class="label">Топ продаж</span><!--
+ --><span class="label only">Только в розетке</span><!--
+ --><span class="label sale">Акция</span><!--
+ --><span class="label parcent">-3%</span>
     
 </body>
 </html>
